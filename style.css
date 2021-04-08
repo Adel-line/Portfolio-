@@ -1,0 +1,60 @@
+body {
+
+    margin: 0;
+    background-color: white;
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Racing Sans One", cursive;
+    overflow-x: hidden;
+  }
+
+header {
+display: flex;
+flex-direction: row;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    height: 5vw;
+    margin-left: 50vw;
+  }
+
+
+.navButtons {
+    margin: 2vw;
+    font-size: 1.7vw;
+    padding: 1vw 2vw 1vw 2vw;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+  }
+  .navButts > span {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #logo {
+      background-image: url(.//images/logo.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    margin-left: 4vw;
+}
+
+footer {
+    background-color:rgb(129, 189, 129);
+    height: 4.5vw;
+}
+
+p {
+    font-size: 1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 1.2vw;
+}
