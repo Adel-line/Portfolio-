@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
 body {
 
     margin: 0;
@@ -14,28 +16,27 @@ display: flex;
 flex-direction: row;
 }
 
-nav {
+li {
     display: flex;
     flex-direction: row;
-    align-items: left;
+   justify-content: flex-end;
     height: 5vw;
-    margin-left: 50vw;
+    margin-left: 70vw;
   }
 
 
 .navButtons {
     margin: 2vw;
     font-size: 1.7vw;
-    padding: 1vw 2vw 1vw 2vw;
+    padding: 1vw 0vw 1vw 0vw;
     display: inline-block;
     text-decoration: none;
     color: black;
+    font-family: 'Ubuntu', sans-serif;;
+    font-size: 1.2vw;
+    font-weight: 500;
   }
-  .navButts > span {
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-  }
+
 
   #logo {
       background-image: url(.//images/logo.png);
@@ -47,14 +48,166 @@ nav {
     margin-left: 4vw;
 }
 
-footer {
-    background-color:rgb(129, 189, 129);
-    height: 4.5vw;
-}
+/*TEXT*/
 
 p {
     font-size: 1vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    padding-top: 1.2vw;
+    color:black;
 }
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;;
+  font-size: 2vw;
+  font-weight: 500;
+}
+
+ h2 {
+  font-family: 'Ubuntu', sans-serif;;
+  font-size: 1.5vw;
+  font-weight: 500;
+ }
+
+ /*HERO SPACE CONTENT*/
+
+ #contenthero {
+  width: 100vw;
+  height: 60vw;
+  display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+#initext {
+  text-align: center;
+  width: 30vw;
+  margin-top: 12vw;
+  margin-left: 16vw;
+}
+
+#circle {
+  position: absolute;
+  z-index: 10;
+  height: 20vw;
+  width: 20vw;
+}
+
+#svg {
+  z-index: 20;
+}
+
+/*CONTACT*/
+
+#contact {
+  width: 100vw;
+  height: 23vw;
+  display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+#text {
+  width: 40vw;
+  align-items: center;
+  text-align: center;
+  margin-left: 5vw;
+}
+
+#social {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  align-items: center;
+}
+
+img {
+margin-left: 2vw;
+}
+
+#linked {
+
+  height: 4vw;
+  width: 4vw;
+}
+
+#git {
+  
+  height: 4vw;
+  width: 4vw;
+
+}
+
+#insta {
+ 
+  height: 4vw;
+  width: 4vw;
+}
+
+#behance {
+ 
+  height: 4vw;
+  width: 4vw;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #E1D5B8;
+  height: 5vw;
+  text-align: center;
+  width: 100%;
+}
+
+  /*WAVES ANIMATION*/
+
+  .waves {
+    position:relative;
+    width: 100%;
+    height:15vh;
+    margin-bottom:-1.5vw;
+    min-height:7vw;
+    max-height:14vw;
+  }
+  
+  
+  /* Animation */
+  
+  .parallax > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+  }
+  .parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+  }
+  .parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+  }
+  .parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+  }
+  .parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+  }
+  @keyframes move-forever {
+    0% {
+     transform: translate3d(-90px,0,0);
+    }
+    100% { 
+      transform: translate3d(85px,0,0);
+    }
+  }
+  /*Shrinking for mobile*/
+  @media (max-width: 768px) {
+    .waves {
+      height:40px;
+      min-height:40px;
+    }
+    .content {
+      height:30vh;
+    }
+    h1 {
+      font-size:24px;
+    }
+  }

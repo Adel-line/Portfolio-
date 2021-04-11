@@ -14,23 +14,85 @@
         <div id="logo">
         </div>
         <nav>
-
-            <li>
-                <a class="navButtons"><span>Work</span></a>
-                <a class="navButtons"><span>About</span></a>
-                <a class="navButtons"><span>Hire Me</span></a>
-            </li>
-
+            <ul>
+                <li>
+                    <a class="navButtons">Work</a>
+                    <a class="navButtons">About</a>
+                    <a class="navButtons">Hire Me</a>
+                </li>
+            </ul>
         </nav>
     </header>
     <main>
+        <div id="contenthero">
+            <div id="initext">
+                <h1>Hi! My name is Adelina</h1>
+                <h2>I am a multimedia desinger and I like to describe myself as a digital swiss knife.</h2>
+            </div>
+            <div id="avholder">
+                <section id="avatar">
+                    <!-- AVATAR GOES HERE -->
+                </section>
+            </div>
+            <div id="cirlce">
+                <svg width="100%" height="100%" viewBox="-200 0 200 120" id="svg">
+                    <path id="path"
+                        d="m -114 -299 C -48 -317 -36 -340 112 -304 L 205 -258 L 263 -200 C 375 69 279 221 86 265 T -129 262 C -271 179 -368 66 -263 -218 L -172 -278"
+                        fill="transparent" stroke="black" />
+                </svg>
+            </div>
+        </div>
+        <div id="contact">
+            <div id="text">
+                <h1>
+                    Contact Me
+                </h1>
+                <h2>
+                    If you think we are compatible, let's have a talk, a coffee and see how we can change the world
+                    together. Or something slighty more realistic.
+                </h2>
 
+            </div>
+            <div id="social">
+                <img id="linked" src="./images/linked.png" alt="">
+                <img id="git" src="./images/git.png" alt="">
+                <img id="insta" src="./images/ig.png" alt="">
+                <img id="behance" src="./images/behance.png" alt="">
+                <!-- <img id="linked"></button>
+                <button id="git"></button>
+                <button id="insta"></button>
+                <button id="behance"></button> -->
+            </div>
+
+        </div>
+
+        <!--Waves Container-->
+        <div>
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave"
+                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(225, 213, 184,0.7)" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(225, 213, 184,0.5)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(225, 213, 184,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#E1D5B8" />
+                </g>
+            </svg>
+        </div>
+        <!--Waves end-->
     </main>
+    <!--Content starts-->
     <footer>
-        <p>
-            @Copyrights 2021 Adelina Sahlean
-        </p>
+        <div class="content flex">
+            <p>
+                @Copyrights 2021 Adelina Sahlean
+            </p>
+        </div>
     </footer>
+    <!--Content ends-->
 </body>
 <script src="script.js"></script>
 
