@@ -20,8 +20,11 @@ function loadSVG() {
    
     gsap.to("#p2", {duration: 1.5, x: "48vw", scrollTrigger:{trigger:"#p2"},  toggleActions:"play pause resume reset"});
 
-    
-    
+    gsap.to("#grapehunt", {duration: 1.5, x: "-40vw", y: "0", scrollTrigger:{trigger:"#grapehunt"},  toggleActions:"play pause resume reset"});
+    gsap.to("#app", {duration: 2.5, x: "-22vw", y: "0", scrollTrigger:{trigger:"#app"},  toggleActions:"play pause resume reset"});
+    gsap.to("#dnmedium", {duration: 2.5, x: "-44vw", y: "0", scrollTrigger:{trigger:"#dnmedium"},  toggleActions:"play pause resume reset"});
+    gsap.to("#source", {duration: 1.5, x: "-28vw", y: "0", scrollTrigger:{trigger:"#source"},  toggleActions:"play pause resume reset"});
+
     
     }
 

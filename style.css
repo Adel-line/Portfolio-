@@ -3,22 +3,8 @@
 body {
 
     margin: 0;
-    background-color: white;
-    background-image: url(./images/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: "Racing Sans One", cursive;
-    overflow-x: hidden;
+   background-color: rgb(163, 168, 109, 25%);
   }
-
-  /* #stripe {
-    position: absolute;
-height: 110vw;
-width: 40vw;
-margin-left: 2vw;
-z-index: -1;
-background-color: #A3A86D;
-  } */
 
 header {
 display: flex;
@@ -185,33 +171,60 @@ margin-left: -30vw;
 
 }
 
-.shape3 {
+.shape2 {
   position: absolute;
-  z-index: -1;
+  z-index: -2;
   width: 45vw;
   height: 40vw;
-  margin-top: -7vw;
+  margin-top: -5vw;
 }
 
-/* .photo3 {
+#app {
   position: absolute;
-  height: 20vw;
-  width: 30vw;
-  z-index: -1;
-  margin-top: 2vw;
-  animation: slidein 1.5s linear ease-in;
+  margin-top: 19vw;
+  margin-left: 43vw;
+  
   }
-   */
-/* 
-.photo4 {
-position: absolute;
-height: 20vw;
-width: 30vw;
-z-index: -1;
-margin-top: 2vw;
-animation: slidein2 1.5s linear ease-in;
-} */
 
+  .photo3 {
+    height: 10vw;
+    width: 8vw;
+  }
+   
+#dnmedium {
+position: absolute;
+margin-top: 10vw;
+margin-left: 47vw;
+
+}
+.photo4 {
+  height: 16vw;
+  width: 25vw;
+}
+
+#grapehunt {
+  position: absolute;
+  margin-top: -4;
+  margin-left: 45vw;
+  z-index: -2;
+  }
+
+  .photo5 {
+    height: 26vw;
+    width: 37vw;
+ 
+  }
+
+  #source {
+    position: absolute;
+margin-top: 11vw;
+margin-left: 52vw;
+  }
+
+  .photo6 {
+    height: 13vw;
+width: 18vw;
+  }
 
 #info {
   text-align: center;
@@ -515,7 +528,7 @@ position: absolute;
     margin-bottom:-1.5vw;
     margin-top: 90vw;
     min-height:7vw;
-    max-height:14vw;
+    max-height:12vw;
   }
   
   
