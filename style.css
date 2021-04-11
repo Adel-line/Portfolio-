@@ -11,6 +11,15 @@ body {
     overflow-x: hidden;
   }
 
+  /* #stripe {
+    position: absolute;
+height: 110vw;
+width: 40vw;
+margin-left: 2vw;
+z-index: -1;
+background-color: #A3A86D;
+  } */
+
 header {
 display: flex;
 flex-direction: row;
@@ -48,6 +57,14 @@ li {
     margin-left: 4vw;
 }
 
+#organic {
+    position: absolute;
+    width: 55vw;
+    height: 55vw;
+    z-index: -1;
+    margin-left: 25vw;
+    margin-top: -2vw;
+}
 /*TEXT*/
 
 p {
@@ -74,17 +91,30 @@ h1 {
  #contenthero {
   width: 100vw;
   height: 60vw;
-  display: grid;
- grid-template-columns: 1fr 1fr;
+  /* display: grid;
+ grid-template-columns: 1fr 1fr; */
 }
 
 #initext {
+  position: absolute;
   text-align: center;
   width: 30vw;
-  margin-top: 12vw;
-  margin-left: 16vw;
+  margin-top: 8vw;
+  margin-left: 6vw;
 }
 
+#initext2 {
+  position: absolute;
+  text-align: center;
+  width: 30vw;
+  margin-top: -23vw;
+  margin-left: 67vw;
+}
+
+#avholder {
+  width: 55vw;
+  margin-left: 25vw;
+}
 #circle {
   position: absolute;
   z-index: 10;
@@ -96,9 +126,39 @@ h1 {
   z-index: 20;
 }
 
+/*About ME*/
+
+.photo {
+  position: absolute;
+  height: 15vw;
+  width: 100%;
+  margin-top: -2vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+#photo1 {
+position: absolute;
+height: 20vw;
+width: 30vw;
+z-index: -1;
+margin-top: 2vw;
+}
+
+#photo2 {
+  position: absolute;
+  height: 25vw;
+  width: 17vw;
+  z-index: -1;
+  margin-left: 26vw;
+}
+
+
 /*CONTACT*/
 
 #contact {
+  position:absolute;
   width: 100vw;
   height: 23vw;
   display: grid;
@@ -148,22 +208,224 @@ margin-left: 2vw;
   width: 4vw;
 }
 
+
 /*Footer*/
 
 footer {
+  position: absolute;
   background-color: #E1D5B8;
+  margin-top: 100vw;
   height: 5vw;
   text-align: center;
   width: 100%;
 }
 
+/*SVG ICONS*/
+
+.photoicon {
+  position: absolute;
+  height: 10vw;
+  width: 10vw;
+background-image: url(./images/camera-01.svg);
+background-size: contain;
+background-repeat: no-repeat;
+margin-top: -40vw;
+margin-left: 10vw;
+animation: scale 1.5s ease-in;
+animation-fill-mode: forwards;
+opacity: 0;
+}
+
+.designicon {
+  position: absolute;
+  height: 10vw;
+  width: 10vw;
+background-image: url(./images/tablet-01.svg);
+background-size: contain;
+background-repeat: no-repeat;
+margin-top: -25vw;
+margin-left: 3vw;
+animation: scale 1.5s ease-in;
+animation-fill-mode: forwards;
+animation-delay: 2s;
+opacity: 0;
+}
+
+.codeicon {
+  position: absolute;
+  height: 9vw;
+  width: 9vw;
+background-image: url(./images/code-01.svg);
+background-size: contain;
+background-repeat: no-repeat;
+margin-top: -35vw;
+margin-left: 38vw;
+animation: scale 1.5s ease-in;
+animation-fill-mode: forwards;
+animation-delay: 3s;
+opacity: 0;
+}
+
+.swiss {
+  position: absolute;
+  height: 5vw;
+  width: 5vw;
+background-image: url(./images/knife-01.svg);
+background-size: contain;
+background-repeat: no-repeat;
+margin-top: -16.2vw;
+margin-left: 24vw;
+animation: rotate 4.5s infinite ease-in;
+}
+
+.lid {
+  position: absolute;
+  height: 3.5vw;
+  width: 3.5vw;
+background-image: url(./images/eyelid-01.svg);
+background-size: contain;
+background-repeat: no-repeat;
+margin-top: -29.6vw;
+margin-left: 23vw;
+opacity: 0;
+animation: blinking 0.2s ease-out;
+animation-delay: 5s;
+}
+/*ICONS ANIMATIONS*/
+
+@keyframes scale {
+  0%   {
+    opacity: 0%;
+    transform: scale(.0);}
+  100% {
+    opacity: 100%;
+    transform: scale(1);}
+}
+
+@keyframes rotate {
+  0% { 
+    transform: rotate(0deg); 
+} 
+100% { 
+    transform: rotate(359deg); 
+}
+
+}
+
+@keyframes blinking {
+  0%   {
+    opacity: 20%;
+    transform: translateY(-0.2vw);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0vw);
+}
+}
+/*SVG CLASSES*/
+
+.lefta {
+  animation: moveleft 1.5s infinite ease-in;
+  animation-delay: 6s;
+}
+
+.righta {
+  animation: moveright 1.5s infinite ease-in;
+  animation-delay: 6s;
+}
+
+.irisl {
+  animation: slideleft 2.5s  infinite ease-in-out;
+  animation-delay: 6s;
+}
+
+.irisr {
+  animation: slideright 2.5s infinite ease-in-out;
+  animation-delay: 6s;
+}
+
+.circle1 {
+  animation: rotate2 20s infinite ease-in-out;
+  transform-origin: 19.8vw 19.5vw;
+
+}
+
+.circle2 {
+  animation: rotate3 35s infinite ease-in-out;
+  transform-origin: 20vw 20.5vw;
+}
+
+.circle3 {
+  animation: rotate2 30s infinite ease-in-out;
+  transform-origin: 19vw 21vw;
+  }
+
+/*SVG ANIMATIONS*/
+@keyframes moveleft {
+  0% { 
+    transform: rotate(0deg); 
+} 
+100% { 
+    transform: rotate(0.5deg); 
+}
+}
+
+@keyframes moveright {
+  0% { 
+    transform: rotate(0.4deg); 
+} 
+100% { 
+    transform: rotate(0deg); 
+}
+}
+
+@keyframes slideleft {
+  0% { 
+    transform: translateX(-0.1vw); 
+} 
+100% { 
+    transform: translateX(0.1vw); 
+}
+}
+
+@keyframes slideright {
+  0% { 
+    transform: translateX(-0.1vw); 
+} 
+100% { 
+    transform: translateX(0.1vw); 
+}
+}
+
+
+@keyframes rotate2 {
+  0% { 
+    transform: rotate(0deg); 
+} 
+100% { 
+    transform: rotate(359deg); 
+}
+
+}
+
+@keyframes rotate3 {
+  0% { 
+    transform: rotate(359deg); 
+} 
+100% { 
+    transform: rotate(0deg); 
+}
+
+}
+
   /*WAVES ANIMATION*/
 
   .waves {
-    position:relative;
+    position: absolute;
     width: 100%;
-    height:15vh;
+    height:20vh;
     margin-bottom:-1.5vw;
+    margin-top: 90vw;
     min-height:7vw;
     max-height:14vw;
   }
