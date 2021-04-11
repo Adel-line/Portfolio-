@@ -1,5 +1,56 @@
 document.addEventListener("DOMContentLoaded", loadSVG);
 
+// const text = document.querySelector(".written").textContent;
+// const text1 = document.querySelector(".write2").textContent;
+// let n = 1
+
+//  init()
+
+// function init() {
+//     console.log("init");
+//     // get the text from somewhere
+//     document.querySelector(".written").textContent;
+//     document.querySelector(".write2").textContent;
+
+//     // clear the HTML area
+//     document.querySelector(".written").textContent = "";
+//     document.querySelector(".write2").textContent = "";
+
+//     // start loop
+//     loop();
+// }
+
+
+// function end() {
+//     console.log("end!")
+// }
+
+
+
+// function loop() {
+//     console.log("loop");
+   
+//     document.querySelector(".written").textContent = text.substring(0,n);
+//     document.querySelector(".write2").textContent = text1.substring(0,n);
+//     // increment N
+//     n++;
+//     // wait before calling loop() again
+//     if (n <= text.length) {
+//         console.log("wait before calling loop() again");
+//         setTimeout(loop, 200); 
+//     }
+
+//     if (n <= text1.length) {
+//         console.log("wait before calling loop() again");
+//         setTimeout(loop, 200); 
+//     }
+// secondtext()
+// }
+
+
+
+
+
 
 function loadSVG() {
     console.log("loadSVG");
@@ -28,5 +79,5 @@ function loadSVG() {
     
     }
 
-  
 
+    
