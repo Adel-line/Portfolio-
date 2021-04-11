@@ -59,8 +59,8 @@ li {
 
 #organic {
     position: absolute;
-    width: 55vw;
-    height: 55vw;
+    width: 50vw;
+    height: 40vw;
     z-index: -1;
     margin-left: 25vw;
     margin-top: -2vw;
@@ -138,20 +138,86 @@ h1 {
 
 }
 
-#photo1 {
+.shape1 {
+  position: absolute;
+  z-index: -1;
+  width: 45vw;
+  height: 40vw;
+  margin-top: -7vw;
+  animation: rotate2 35s infinite ease-in-out;
+}
+
+.photo1 {
 position: absolute;
 height: 20vw;
 width: 30vw;
 z-index: -1;
 margin-top: 2vw;
+margin-left: -30vw;
+/* animation: slidein 1.5s linear forwards; */
 }
 
-#photo2 {
+.photo2 {
   position: absolute;
   height: 25vw;
   width: 17vw;
   z-index: -1;
-  margin-left: 26vw;
+  margin-left: -20vw;
+  /* animation: slidein2 1.5s linear forwards;
+  animation-delay: 1s; */
+}
+
+#shortbio {
+  text-align: center;
+  width: 40vw;
+  margin-left: 5vw;
+}
+
+/*WORK */
+
+#design {
+  position: absolute;
+  height: 15vw;
+  width: 100%;
+  margin-top: 35vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.shape3 {
+  position: absolute;
+  z-index: -1;
+  width: 45vw;
+  height: 40vw;
+  margin-top: -7vw;
+}
+
+/* .photo3 {
+  position: absolute;
+  height: 20vw;
+  width: 30vw;
+  z-index: -1;
+  margin-top: 2vw;
+  animation: slidein 1.5s linear ease-in;
+  }
+   */
+/* 
+.photo4 {
+position: absolute;
+height: 20vw;
+width: 30vw;
+z-index: -1;
+margin-top: 2vw;
+animation: slidein2 1.5s linear ease-in;
+} */
+
+
+#info {
+  text-align: center;
+  width: 40vw;
+  margin-left: 5vw;
+  margin-top: 6vw;
 }
 
 
@@ -159,6 +225,7 @@ margin-top: 2vw;
 
 #contact {
   position:absolute;
+  margin-top: 75vw;
   width: 100vw;
   height: 23vw;
   display: grid;
@@ -175,8 +242,10 @@ margin-top: 2vw;
 #social {
   display: flex;
   flex-direction: row;
-  width: 50vw;
+  width: 40vw;
   align-items: center;
+  margin-top: -8vw;
+  margin-left: 14vw;
 }
 
 img {
@@ -322,6 +391,24 @@ animation-delay: 5s;
     transform: translateY(0vw);
 }
 }
+
+@keyframes slidein {
+  0% { 
+    transform: translateX(-30vw); 
+} 
+100% { 
+    transform: translateX(30vw); 
+}
+}
+
+@keyframes slidein2 {
+  0% { 
+    transform: translateX(-20vw); 
+} 
+100% { 
+    transform: translateX(30vw); 
+}
+}
 /*SVG CLASSES*/
 
 .lefta {
@@ -345,19 +432,20 @@ animation-delay: 5s;
 }
 
 .circle1 {
+  position: absolute;
   animation: rotate2 20s infinite ease-in-out;
-  transform-origin: 19.8vw 19.5vw;
 
 }
 
 .circle2 {
+position: absolute;
   animation: rotate3 35s infinite ease-in-out;
-  transform-origin: 20vw 20.5vw;
+
 }
 
 .circle3 {
   animation: rotate2 30s infinite ease-in-out;
-  transform-origin: 19vw 21vw;
+ 
   }
 
 /*SVG ANIMATIONS*/
