@@ -68,6 +68,7 @@ h1 {
 
 /*PROJECTS*/
 
+
 .bkg1 {
     position: absolute;
     height: 40vw;
@@ -86,8 +87,15 @@ h1 {
     width: 40vw;
 }
 
+#info {
+    width: 100vw;
+    text-align: center;
+}
 
-
+#info p{
+ width: 35vw;
+ margin-left: 32vw;
+}
 /*Contact INFO*/
 
 
