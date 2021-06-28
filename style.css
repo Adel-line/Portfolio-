@@ -4,6 +4,7 @@ body {
 
     margin: 0;
    background-color: rgb(163, 168, 109, 25%);
+   scroll-behavior: smooth;
   }
 
 header {
@@ -133,7 +134,7 @@ opacity: 50%;  }
 
 /* LINKS */
 
-a {
+.redirect {
   background-color:rgb(163, 168, 109);
   width: 15vw;
     height: 15vw;
@@ -143,7 +144,6 @@ a {
     color: ivory;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
-
 
 
  /*HERO SPACE CONTENT*/

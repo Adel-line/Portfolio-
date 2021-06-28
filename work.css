@@ -1,55 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;300;500&display=swap');
-
-
-/* BACKGROUNDS */
-
-/* .bkg1 {
-  position: absolute;
-  height: 20vw;
-  width: 22vw;
-  z-index: -1;
-  margin-left: 2vw;
-  margin-top: -6vw;
-}
-
-.bkg2 {
-  position: absolute;
-  height: 20vw;
-  width: 22vw;
-  z-index: -1;
-  margin-left: -6vw;
-  margin-top: 6.5vw;
-}
-
-.bkg3 {
-  position: absolute;
-  height: 20vw;
-  width: 22vw;
-  z-index: -1;
-  margin-left: -4.5vw;
-  margin-top: 8vw;
-}
-
-.bkg4 {
-  position: absolute;
-  height: 20vw;
-  width: 22vw;
-  z-index: -1;
-  margin-top: -6vw;
-  margin-left: -16vw;
-} */
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap');
 
 /* MODALS */
-
-/* .hide {
-  display: none;
-} */
 
 .modal1 {
   display: none;
 position: fixed;
-overflow-y: scroll;
 scroll-behavior: smooth;
 z-index: 2;
 left: 0;
@@ -61,13 +17,14 @@ background-color: rgb(163, 168, 109, 25%);
 
 .modal2 {
   display: none;
-  position: fixed;
+position: fixed;
+scroll-behavior: smooth;
 z-index: 2;
 left: 0;
 top: 0;
 height: 100%;
 width: 100%;
-background-color: aliceblue;
+background-color: rgb(163, 168, 109, 25%);
 }
 
 .modal3 {
@@ -84,22 +41,24 @@ background-color: rgba(211, 211, 211, 0.472);
 .modal4 {
   display: none;
   position: fixed;
-z-index: 2;
-left: 0;
-top: 0;
-height: 100%;
-width: 100%;
-background-color: rgba(211, 211, 211, 0.472);
+  scroll-behavior: smooth;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(163, 168, 109, 25%);
 }
 
 .styleCONT {
 overflow-y: hidden;
 position: absolute;
+overflow-y: scroll;
 padding-top: 1vw;
 padding-left: 1.5vw;
 padding-right: 2.5vw;
 left: 20vw;
-height: 100vw;
+height: 100%;
 width: 60vw;
 background-color: white;
 border-radius: 0.4vw;
@@ -120,14 +79,23 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   left: 2vw;
 }
 
+.styleTile2 {
+  position: relative;
+  height: 75vw;
+  width: 55vw;
+  left: 1vw;
+}
+
+.styleTile3 {
+  position: relative;
+  height: 170vw;
+  width: 55vw;
+}
+
 
 .content2 {
   position: absolute;
-  color: aliceblue;
-}
 
-.content2 p {
-  color: aliceblue;
 }
 
 #comparison {
