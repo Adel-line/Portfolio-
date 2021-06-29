@@ -111,18 +111,6 @@ opacity: 0;
   margin-top: -0.8vw;
  }
 
- /* #type5 {
-  overflow: hidden; 
-  white-space: nowrap; 
-   position: absolute;
-   width: 30vw;
-   margin-left: 18vw;
-   margin-top: -8vw;
-   animation: type 4s steps(31)1s 1 normal both;
-   animation-delay: 12s;
-   opacity: 0;
- } */
-
  
  /*Text Animation*/
  @keyframes type{
@@ -132,27 +120,12 @@ opacity: 50%;  }
   opacity: 100%;}
 }
 
-/* LINKS */
-
-.redirect {
-  background-color:rgb(163, 168, 109);
-  width: 15vw;
-    height: 15vw;
-    border: 0.2vw rgb(163, 168, 109);
-    border-radius: 0.3vw;
-    padding: 0.5vw;
-    color: ivory;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-}
-
 
  /*HERO SPACE CONTENT*/
 
  #contenthero {
   width: 100vw;
   height: 60vw;
-  /* display: grid;
- grid-template-columns: 1fr 1fr; */
 }
 
 #initext {
@@ -307,6 +280,19 @@ transform: scale(1.1);
   font-size: 0.6vw;
   text-align: baseline;
   margin-left: 2vw;
+}
+
+.clsBTN {
+  color: black;
+  background-color: #738054;
+  border-radius: 2vw;
+  border: 0.3vw #738054 solid;
+  width: 2.5vw;
+  height: 2.5vw;
+  align-self: center;
+  font-size: 1vw;
+  text-align: baseline;
+  margin-left: -0.1vw;
 }
 
 /*CONTENT PROJECTS*/
