@@ -211,8 +211,8 @@ margin-left: -30vw;
 
 #work {
   position: absolute;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   width: 100%;
   height: 58vw;
   margin-top: 50vw;
@@ -223,7 +223,9 @@ margin-left: -30vw;
 
 #info {
 position: relative;
-left: 26vw;
+width: 60%;
+left: 7vw;
+top: 8vw;
 }
 
 
@@ -240,11 +242,11 @@ left: 26vw;
 #container {
   position: relative;
    display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-   width: 80%;
+  grid-template-columns: 1fr 1fr;
+   width: 40%;
    height: 20vw;
-   top: 5vw;
-   margin-left: 1vw;
+   top: -14.5vw;
+   margin-left: 45vw;
  }
 
  #container h1 {
@@ -264,7 +266,6 @@ left: 26vw;
 .extra :hover {
 transform: scale(1.1);
 }
-
 
 /* Open Buttons */
 
@@ -342,6 +343,7 @@ height: 17vw;
    display: flex;
    flex-direction: column;
    height: 15vw;
+   top: 3vw;
 }
 
 .intro4 {
@@ -349,6 +351,7 @@ height: 17vw;
    display: flex;
    flex-direction: column;
    height: 15vw;
+   top: 3vw;
 }
 
 /*CONTACT*/

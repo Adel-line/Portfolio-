@@ -3,6 +3,7 @@
 
 /* MODALS */
 
+
 .modal1 {
   display: none;
 position: fixed;
@@ -50,6 +51,13 @@ background-color: rgba(211, 211, 211, 0.472);
   background-color: rgb(163, 168, 109, 25%);
 }
 
+/* UNIVERSAL */
+
+#modal h1{
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+
 .styleCONT {
 overflow-y: hidden;
 position: absolute;
@@ -63,8 +71,6 @@ width: 60vw;
 background-color: white;
 border-radius: 0.4vw;
 box-shadow:  0 5px 8px black;
-color: beige;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* CONTENT MODALS */
@@ -72,19 +78,23 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   position: absolute;
 }
 
+.content4 {
+  position: absolute;
+}
+
 .styleTile1 {
   position: relative;
   height: 60vw;
   width: 55vw;
-  left: 2vw;
+  left: 0.2vw;
+  top: 6vw;
 }
 
 .styleTile2 {
   position: relative;
-  height: 78vw;
-  width: 56vw;
-  left: 1vw;
-  top: 10vw;
+  height: 170vw;
+  width: 55vw;
+  top: 7vw;
 }
 
 .styleTile3 {
@@ -94,6 +104,13 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   top: 7vw;
 }
 
+.styleTile4 {
+  position: relative;
+  height: 150vw;
+  width: 60vw;
+  top: 7vw;
+  left: -2vw;
+}
 
 /* LINKS */
 
@@ -107,6 +124,80 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: ivory;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
+
+/* Modal 1 */
+
+.caseGame {
+  margin-left: 9vw;
+  width: 100%;
+  text-align: center;
+}
+
+.caseGame h1{
+  margin-left: -15vw;
+}
+
+#gameconcept {
+  position: absolute;
+  margin-left: 13.2vw;
+  margin-top: 3.5vw;
+  z-index: 2;
+}
+
+#gameconcept p{
+  font-size: 1vw;
+  text-align: left;
+}
+
+#mechanics {
+  position:absolute;
+  margin-top: 6vw;
+  margin-left: 13.5vw;
+}
+
+.content1 iframe {
+  margin-left: 3vw;
+  margin-top: 20vw;
+  margin-bottom: 7vw;
+  overflow: hidden;
+}
+
+.clock {
+  position:absolute;
+  height: 14vw;
+  width: 15vw;
+  margin-top: -3vw;
+  margin-left: 0vw;
+  z-index: 2;
+  /* transform: rotate(-20deg); */
+}
+
+.goodg {
+  position: absolute;
+  height: 15vw;
+  width: 16vw;
+  margin-top: -15vw;
+  margin-left: 46vw;
+  transform: rotate(30deg);
+}
+
+.foxbtn {
+  position: relative;
+  top:50vw;
+  margin-left: -31vw;
+  background-color:rgb(163, 168, 109);
+  width: 12vw;
+    height: 1.5vw;
+    border: 0.2vw rgb(163, 168, 109);
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+    font-family: 'Lato' sans-serif;
+    text-align: center;
+    font-size: 1vw;
+      font-weight: 300;
+      color: ivory;
+      }
+
 
 /* MODAL 2 */
 
@@ -150,13 +241,96 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border: 0.2vw rgb(163, 168, 109);
     border-radius: 0.5vw;
     padding: 0.5vw;
-    font-family: 'Lato' sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align: center;
     font-size: 1vw;
       font-weight: 300;
       color: ivory;
       }
-  
+
+          
+/*MODAL 4*/
+
+#animations {
+position: absolute;
+width: 60vw;
+height: 30vw;
+margin-top: -55vw;
+margin-left: 16.5vw;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+overflow: hidden;
+}
+
+
+iframe {
+  height:25vw;
+  width: 55vw;
+  margin-bottom: 1vw;
+  overflow: hidden;
+}
+
+.content4 h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  text-align: center;
+  color:black;
+}
+
+.content4 p{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.2vw;
+  color:black;
+}
+
+.content4 h1{
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color:black;
+}
+
+#caseconf {
+position: relative;
+width: 70%;
+height: 10vw;
+left: 9vw;
+top: 3vw;
+
+}
+
+#contributionconf {
+  position: relative;
+width: 70%;
+height: 10vw;
+left: 10vw;
+top: 8vw;
+}
+
+.conf {
+  position: relative;
+  top: -1vw;
+}
+
+.conf1 {
+  position: relative;
+  left: 14vw;
+  top: 1vw;
+  background-color:rgb(163, 168, 109);
+  width: 12vw;
+    height: 1.5vw;
+    border: 0.2vw rgb(163, 168, 109);
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 1.2vw;
+      font-weight: 300;
+      color: ivory
+}
 
 /* BKG */
 
@@ -214,16 +388,11 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
-
 /* Text */
-.content2 {
-  color: black;
-}
 
 .content2 h1 {
   position: relative;
   left: 8vw;
-  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1.5vw;
  letter-spacing: 0.2vw;
@@ -242,4 +411,29 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 1vw;
   width: 70%;
   text-align: center;
+}
+
+.content1 p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+  width: 70%;
+  text-align: center;
+}
+
+.content1 h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+  text-align: center;
+  color: black;
+}
+
+.content1 h3 {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 1.3vw;
+
+
 }
